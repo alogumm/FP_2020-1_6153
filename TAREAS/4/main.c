@@ -4,7 +4,7 @@ float m;
 float y=0;
 float promedio;
 int main(int argc, char*argv[]){
-	for (int i=1; argc; i++){ //utilizamos for para recorrer la lista
+	for (int i=1; i<argc; i++){ //utilizamos for para recorrer la lista
 	m=atof(argv[i]); //recibimos argumento y cambiamos a int
 	y=y+m; //operacion
 	}
